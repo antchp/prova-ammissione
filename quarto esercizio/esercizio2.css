@@ -1,0 +1,50 @@
+body{background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+color: white;
+}
+
+
+.contenuto{
+  width: 650px;
+  margin: auto;
+}
+
+.icona{
+  width: 120px
+}
+
+.testo-icona{
+  font-size: 30px
+}
+
+#numero{
+  background-color: orange
+}
+
+.parte-dx{
+  display: inline-block;
+  width: 40%
+}
+
+.parte-sx{
+  display: inline-block;
+  width: 50%
+}
+
+
+.a{
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+
+.b{
+  background-color: white;
+  border: 1px solid black;
+}
+
+.oggetto{color:black;}
+
+.testo{color:grey;}
+
+footer{
+  text-align: center;
+}

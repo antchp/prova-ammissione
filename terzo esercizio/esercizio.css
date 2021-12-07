@@ -1,0 +1,16 @@
+/* selettore {
+    propriétà: valore;
+    propriétà: valore;
+} */
+
+
+.speciale{color:orange;}
+
+hr{border-color: orange}
+
+header{
+  background-color: lightgrey;
+text-align: center;
+}
+
+main{ padding:8px;}

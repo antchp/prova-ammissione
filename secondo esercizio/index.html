@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Registrazione</title>
+  </head>
+  <body>
+    <h1>Registrazione del corso</h1>
+    <!-- dati anagrafici -->
+    <form >
+      <div><input type="text" name="nome" placeholder="inserisci il nome*" required minlength="2"></div>
+      <div><input type="text" name="cognome" placeholder="inserisci il cognome*" required></div>
+      <div><input type="email" name="email" placeholder="inserisci la tua email*" required></div>
+
+      <select name="Regione" required>
+        <option value="Abruzzo">Abruzzo</option>
+        <option value="Lazio">Lazio</option>
+        <option value="Marche">Marche</option>
+      </select>
+
+       <div>
+         <input type="radio" name="maggiorenne" value="0-18" required>0-18
+         <input type="radio" name="maggiorenne" value="18+" required>18+
+       </div>
+       <div><input type="checkbox" name="" value="" required>Accetta termini e condizioni</div>
+       <input type="submit" name="" value="invia">
+   </form>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+* {margin: 2%;}
+
+.center{
+  background-color: lightgreen;
+  border-radius: 20%;
+}
+img {
+  display: inline-block;
+  background-color: white;
+  border-radius:  20%;
+  width: 15%;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+  h2{
+  display: inline-block;
+  width: 70%;
+  padding: 25px;
+}
+
+section > h3 {
+  text-align: center;
+  background-color: lightgreen;
+  border-radius: 5%;
+  border-bottom: 5px solid lightblue ;
+  border-left:   5px solid transparent;
+  border-right:  5px solid transparent;
+  color: #205020
+}
+
+
+div li {background-color: azure;}
+
+li.written {color: grey;}
+
+.dash:before {content: '\2013'; }
+
+footer h4:last-child {
+   text-align: center;
+ }

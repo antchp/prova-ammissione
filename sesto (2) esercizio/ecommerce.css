@@ -1,0 +1,48 @@
+body {
+  background-color: lightgrey;
+}
+
+.contenuto {
+  width: 920px;
+  margin: auto;
+  background-color: white;
+
+}
+
+.unico {
+  width: 300px;
+  position: relative;
+  display: inline-block;
+  margin-left: 2px;
+  margin-right: 2px;
+  text-align: center;
+
+}
+
+.unico > .sale {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15%;
+  text-align: center;
+}
+
+.alto {
+  background-color: green;
+}
+
+.basso {
+  background-color: red;
+}
+
+.box {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: red;
+  display: none;
+}
+
+.unico:hover .box {
+  display: block;
+}

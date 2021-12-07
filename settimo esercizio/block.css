@@ -1,0 +1,43 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#losangeles{
+  background-image: url('https://content.r9cdn.net/rimg/dimg/a6/ae/d1a4a522-city-16078-16e8e12db60.jpg?width=1750&height=1000&xhint=2480&yhint=1430&crop=true');
+}
+
+#newyork{
+  background-image: url('https://strapi-imaginary.weroad.it/resource/coverMobile/14745/new-york-skyline-central-park-primavera.jpg');
+}
+
+#londra{
+  background-image: url('https://www.vivalingue.com/wp-content/uploads/2019/08/STUDIARE-A-LONDRA-1900x1080.jpg');
+}
+
+.città {
+  width: 100%;
+  height: 100vh;
+  border: 1px solid black;
+  background-color: red;
+  color: black;
+  position: relative;
+  background-size: cover;
+}
+
+
+
+.style{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: red;
+  padding: 15px;
+  font-size: 25px;
+
+}

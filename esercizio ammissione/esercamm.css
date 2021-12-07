@@ -1,0 +1,74 @@
+body {
+  background-image: url(sfondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+
+.content {
+  position: absolute;
+  width: 700px;
+  height: 600px;
+  margin: auto;
+}
+
+.sfondo{
+  width: 700px;
+  height: 600px;
+  background-color: black;
+  opacity: 0.5;
+  border-radius:5%;
+  margin: auto;
+
+}
+
+
+.icona {width: 200px;}
+
+header {text-align: center}
+
+header h1:last-child {
+  color: lime;
+  margin-top: 0.5%;
+}
+
+  nav div{
+  text-align: center;
+  background-color: lime;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 10px;
+  }
+
+.simbolo::before {
+  content: '\21A6';
+}
+
+.blocco {
+  margin-left: 5%;
+}
+
+  div.rectangle  {
+  border-radius: 5px 5px 5px 5px;
+
+}
+
+.rectangle{
+  width: 250px;
+  height: 25px;
+  background-color: lightsalmon
+
+}
+
+.a {
+  width: 450px;
+  height: 25px;
+  background-color: limegreen;
+}
+
+.b {
+  width: 100px;
+  height: 25px;
+  background-color: crimson;
+}
